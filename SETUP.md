@@ -33,7 +33,7 @@ Once jj is installed, initialize the repository:
 cd ajjent
 
 # Initialize jj with git backend (colocated)
-jj init --git
+jj git init
 ```
 
 This creates a jj repository that is colocated with git, allowing both tools to work together.
@@ -68,7 +68,7 @@ ajjent/
 ## Next Steps
 
 1. Install jj following the instructions above
-2. Convert the repo: `jj init --git`
+2. Initialize the repo: `jj git init`
 3. Start using jj commands:
    - `jj log` - View history
    - `jj status` - Check working copy

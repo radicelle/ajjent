@@ -35,7 +35,7 @@ You have deep knowledge of:
 ## Command Categories
 
 ### Category 1: Initialization & Setup
-- `jj init` / `jj git clone` - Create or clone repositories
+- `jj git init` / `jj git clone` - Create or clone repositories
 - `jj workspace` - Manage multiple working copies
 - `jj git remote` - Configure remotes
 - `jj config` - Set user identity, editor, diff/merge tools
@@ -53,7 +53,7 @@ You have deep knowledge of:
 
 ### Category 3: Merging & Rebasing
 - `jj new` / `jj describe` / `jj commit` - Create/modify commits
-- `jj squash` / `jj split` / `jj move` - Reorganize changes
+- `jj squash` / `jj split` - Reorganize changes
 - `jj rebase` - Move commits with multiple strategies
 - `jj new <p1> <p2>` - Create merges
 - `jj resolve` - Handle conflicts

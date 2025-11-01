@@ -45,8 +45,8 @@ This repository includes:
 # Install jj
 cargo install jj-cli
 
-# Convert this repository to jj
-jj init --git
+# Initialize jj repository with git backend
+jj git init
 
 # View the commit log
 jj log

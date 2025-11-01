@@ -14,14 +14,14 @@
 
 ## Repository Creation
 
-### `jj init`
+### `jj git init`
 
-Create a new jj repository.
+Create a new jj repository with Git backend.
 
 ```bash
-jj init                  # Initialize new repo
-jj init --git            # Initialize with git backend
-jj init --git-repo <path>  # Initialize pointing to existing git repo
+jj git init                     # Initialize new repo with git backend
+jj git init <destination>       # Initialize in specific directory
+jj git init --git-repo <path>   # Initialize pointing to existing git repo
 ```
 
 ### `jj git clone`
@@ -409,16 +409,6 @@ Split a commit into multiple commits.
 ```bash
 jj split                 # Interactive split of @
 jj split -r <rev>       # Split specific revision
-```
-
-### `jj move`
-
-Move changes between commits.
-
-```bash
-jj move --from <source> --to <dest>  # Move changes
-jj move --from <source>              # Move to @
-jj move --from <source> -i           # Interactive selection
 ```
 
 ### `jj diffedit`
