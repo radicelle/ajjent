@@ -2,6 +2,8 @@
 
 A comprehensive Jujutsu (jj) expert agent and documentation project for version control mastery.
 
+> ⚠️ **Disclaimer**: This project is AI-generated and is not 100% accurate yet. While the content aims to be helpful and accurate, please verify critical information with the [official jj documentation](https://martinvonz.github.io/jj/) before relying on it in production environments. As the project matures, accuracy will improve significantly.
+
 ## Overview
 
 **ajjent** provides:
