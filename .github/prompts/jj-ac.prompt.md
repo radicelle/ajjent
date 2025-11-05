@@ -15,7 +15,7 @@ Create atomic commits with clear intent by running jj commands, focusing on:
 2. Amend working copy with `jj describe` as you go through blocks of related changes
 3. Use `jj new` to create focused commits
 4. Reviewing changes with `jj status` and `jj diff --no-pager` (| head -100 for large diffs)
-5. Push
+5. Push on current bookmark
 
 ## Key Principle
 
