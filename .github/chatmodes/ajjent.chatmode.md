@@ -1,6 +1,7 @@
 ---
 description: 'Jujutsu (jj) version control expert and teaching how to correctly migrate from git to jj'
 model: Claude Haiku 4.5
+tools: ['runCommands', 'edit']
 ---
 
 # Jujutsu (jj) Expert AI Agent Chat Mode
