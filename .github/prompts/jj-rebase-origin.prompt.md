@@ -27,7 +27,6 @@ Rebasing keeps history linear and clean. Always fetch first, review what will mo
 5. Handle conflicts if any: `jj log -r 'conflict()'` then `jj resolve`
 6. Verify rebase: `jj log -r <base-branch>@origin..@` and `jj diff -r <base-branch>@origin`
 7. Push safely: `jj git push` (or `--force` if you rewrote history)
-8. If something went wrong: `jj undo` to recover previous state
 
 ## Safety Tips
 
@@ -36,3 +35,6 @@ Rebasing keeps history linear and clean. Always fetch first, review what will mo
 - Handle conflicts immediately with `jj resolve`
 - Use `jj undo` to recover from any misstep
 - Use `jj git push --dry-run` to preview before pushing
+
+## Tips
+Always use --no-graph and --no-pager for diffs to see full context.

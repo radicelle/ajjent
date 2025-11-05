@@ -26,5 +26,7 @@ Consolidate multiple small related commits into logical by running jj commands, 
 - `jj describe -r <rev> -m "msg"` – Update message
 - `jj log -r main..@` – View your commits
 - `jj diff -r <rev>` – Inspect changes in a commit
-- `jj undo` – Undo last operation (use cautiously)
 - `jj op restore <op-id>` – Restore to a specific operation (advanced - use cautiously)
+
+## Tips
+Always use --no-graph and --no-pager for diffs to see full context.
